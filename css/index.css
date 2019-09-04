@@ -22,7 +22,7 @@ a:visited{
     padding-left: 10px;
 }
 .headerMenu li:nth-child(1)::before{
-    font-family: "Font Awesome 5 Free";
+    font-family: FontAwesome;
     font-weight: 900;
     content: "\f004";
     padding-right: 5px;
