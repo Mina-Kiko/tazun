@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+a{
+    text-decoration: none
+}
+a:hover{
+    color: gray;
+}
+a:visited{
+    color: black;
+}
+
+
+.headerMenu{
+    font-family: "游ゴシック体", YuGothic;
+    font-size: 15px;
+    color: black;
+}
+.headerMenu li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 10px;
+}
+.headerMenu li:nth-child(1)::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f004";
+    padding-right: 5px;
+    
+}
+.headerMenu li:nth-child(2)::before{
+    font-family: FontAwesome;
+    content: "\f07a";
+    font-weight: 400;
+    padding-right: 5px;
+}
+.headerMenu li:nth-child(3)::before{
+    font-family: FontAwesome;
+    content: "\f002";
+    font-weight: 400;
+    padding-right: 5px;
+}
