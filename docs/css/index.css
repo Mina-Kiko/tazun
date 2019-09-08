@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body{
+    font-family: "游ゴシック体", "Yu Gothic" , YuGothic;
+}
+
 a{
     text-decoration: none
 }
@@ -10,16 +14,24 @@ a:visited{
     color: black;
 }
 
+.secTit{
+    font-family: "游明朝体", "Yu Mincho", YuMincho;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+/* ヘッダーメニュー */
 
 .headerMenu{
-    font-family: "游ゴシック体", YuGothic;
+    font-family: "游ゴシック体", "Yu Gothic" , YuGothic;
     font-size: 15px;
     color: black;
+    float: right;
 }
 .headerMenu li{
     display: inline-block;
     list-style: none;
-    padding-left: 10px;
+    padding-left: 25px;
 }
 .headerMenu li:nth-child(1)::before{
     font-family: FontAwesome;
@@ -39,4 +51,157 @@ a:visited{
     content: "\f002";
     font-weight: 400;
     padding-right: 5px;
+}
+
+/* メインロゴ */
+
+.secLogo{
+    width: 160px;
+    margin: auto;
+    padding: 50px 0 20px 0;
+}
+
+/* メインイメージ */
+
+.mainImg{
+    width: 100%;
+    height: 500px;
+    background: darkslategray;
+}
+.mainImg img{
+    float: right;
+}
+
+/* Gナビ */
+
+.gNavi{
+    font-family: "游明朝体", "Yu Mincho", YuMincho;
+    font-size: 17px;
+    height: 60px;
+
+}
+.gNavi ul{
+    width: 1000px;
+    float: right;
+}
+.gNavi li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 100px;
+}
+
+/* ABOUT */
+
+.secAbout{
+    text-align: center;
+    padding-top: 30px;
+}
+.secAbout .subTit{
+    font-family: "游明朝体", "Yu Mincho", YuMincho;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+.secAbout .txt{
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    
+}
+
+/* LESSONS */
+
+.secLessons{
+    text-align: center;
+    padding-top: 50px;
+}
+.secLessons .secList{
+    min-height: 370px;
+    background: #ae5da1;
+}
+.secLessons .secList ul{
+    padding: 30px 0 20px 0;
+}
+.secLessons .secList li{
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+.secLessons .secList .tit{
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.secLessons .secList .price{
+    text-align: left;
+    color: white;
+    font-size: 13px;
+}
+.secLessons .secBtn{
+    font-family: "游明朝体", "Yu Mincho", YuMincho;
+    margin: 40px 0 30px 0;
+}
+.secLessons .secBtn a{
+    padding: 15px 60px 15px 60px;
+    border: black solid 1px;
+}
+
+/* GALLERY */
+
+.secGallery{
+    text-align: center;
+    padding-top: 50px;
+}
+.secGallery .secList{
+    min-height: 320px;
+    background: #003567;
+}
+.secGallery .secList ul{
+    padding: 30px 0 20px 0;
+}
+.secGallery .secList li{
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+.secGallery .secBtn{
+    font-family: "游明朝体", "Yu Mincho", YuMincho;
+    margin: 40px 0 30px 0;
+}
+.secGallery .secBtn a{
+    padding: 15px 60px 15px 60px;
+    border: black solid 1px;
+}
+
+/* NEWS */
+
+.secNews{
+    text-align: center;
+    padding-top: 50px;
+}
+.secNews .secList ul{
+    padding-bottom: 50px;
+}
+.secNews .secList li{
+    display: block;
+    list-style: none;
+    padding: 15px;
+}
+.secNews .date{
+    display: inline;
+    padding-right: 50px;
+}
+.secNews .newsTit{
+    display: inline;
+}
+
+/* フッター */
+
+.footer{
+    height: 300px;
+    background: #5f52a0;
 }
