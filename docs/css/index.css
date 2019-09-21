@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    font-family: "游ゴシック体", "Yu Gothic" , YuGothic;
+    font-family: "游ゴシック体", "Yu Gothic" , YuGothic , sans-serif , "ヒラギノ角ゴ ProN";
 }
 .secTit{
     font-family: "游明朝体", "Yu Mincho", YuMincho;
@@ -17,6 +17,12 @@ a:hover{
 }
 a:visited{
     color: black;
+}
+@media screen and (max-width:650px){
+    .secTit{
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
 }
 
 /* 改行設定 */
@@ -46,10 +52,13 @@ a:visited{
     float: right;
     padding-top: 15px;
 }
+.headerMenu ul{
+
+}
 .headerMenu li{
     display: inline-block;
     list-style: none;
-    padding-left: 25px;
+    padding: 0 15px;
 }
 .headerMenu li:nth-child(1)::before{
     font-family: FontAwesome;
@@ -70,6 +79,23 @@ a:visited{
     font-weight: 400;
     padding-right: 5px;
 }
+.headerMenu li:nth-child(4){
+    display: none;
+}
+@media screen and (max-width:414px){
+    .headerMenu li{
+        padding: 0 10px 0 0;
+    }
+    .headerMenu li:nth-child(4){
+        display: inline-block;
+    }
+    .headerMenu li:nth-child(4)::before{
+        font-family: FontAwesome;
+        content: "\f0c9";
+        font-weight: 400;
+        padding-right: 5px;
+    }
+}
 
 /* メインロゴ */
 
@@ -80,7 +106,11 @@ a:visited{
 }
 @media screen and (max-width:414px) {
     .secLogo{
+        width: 40%;
         padding-top: 60px;
+    }
+    .secLogo img{
+        width: 100%;
     }
 }
 
@@ -313,10 +343,12 @@ a:visited{
     }
     .secNews .date{
         display: block;
+        font-size: 15px;
         padding-bottom: 10px;
     }
     .secNews .newsTit{
         display: block;
+        font-size: 13px;
         line-height: 20px;
     }
 }
