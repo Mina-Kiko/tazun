@@ -4,7 +4,7 @@ body{
     font-family: "游ゴシック体", "Yu Gothic" , YuGothic , sans-serif , "ヒラギノ角ゴ ProN";
 }
 .secTit{
-    font-family: "游明朝体", "Yu Mincho", YuMincho;
+    font-family: serif , "游明朝体", "Yu Mincho", YuMincho;
     font-size: 45px;
     letter-spacing: 3px;
     padding-bottom: 20px;
@@ -151,7 +151,7 @@ a:visited{
 /* Gナビ */
 
 .gNavi{
-    font-family: "游明朝体", "Yu Mincho", YuMincho;
+    font-family: serif , "游明朝体", "Yu Mincho", YuMincho;
     font-size: 17px;
     height: 60px;
     padding-top: 20px;
@@ -192,7 +192,7 @@ a:visited{
     padding-top: 30px;
 }
 .secAbout .subTit{
-    font-family: "游明朝体", "Yu Mincho", YuMincho;
+    font-family: serif , "游明朝体", "Yu Mincho", YuMincho;
     font-size: 20px;
     letter-spacing: 1px;
     padding: 10px 0 20px 0;
@@ -242,7 +242,7 @@ a:visited{
     font-size: 13px;
 }
 .secLessons .secBtn{
-    font-family: "游明朝体", "Yu Mincho", YuMincho;
+    font-family: serif , "游明朝体", "Yu Mincho", YuMincho;
     margin: 40px 0 30px 0;
 }
 .secLessons .secBtn a{
@@ -287,7 +287,7 @@ a:visited{
     padding: 15px;
 }
 .secGallery .secBtn{
-    font-family: "游明朝体", "Yu Mincho", YuMincho;
+    font-family: serif , "游明朝体", "Yu Mincho", YuMincho;
     margin: 40px 0 30px 0;
 }
 .secGallery .secBtn a{
